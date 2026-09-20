@@ -1,3 +1,6 @@
+# 2. Verkkokaavio
+<img width="466" height="808" alt="image" src="https://github.com/user-attachments/assets/d8f74d80-f5bd-40da-924d-10e522e3299f" />
+
 
 # 3. Laiteluettelo
 | Laite | Tarkoitus |
