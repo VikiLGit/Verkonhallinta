@@ -1,15 +1,16 @@
 
+# 3. Laiteluettelo
 | Laite | Tarkoitus |
 |---------|---------|
-| r1 | |
-| r2 | |
-| r3 | |
-| client1 | |
-| attacker | |
-| web1 | |
-| db1 | |
-| branch-client | |
-| ansible | |
-| prometheus | |
-| grafana | |
-| zabbix | |
+| r1 | reititin joka yhdistää käyttäjäverkon r2:n|
+| r2 | yhdistää r1 ja r3 reitittimet ja palvelinverkon ja hallintoverkon kai|
+| r3 | yhdistää toimipisteen verkon r2 reitittimeen ja siten muualle |
+| client1 | käyttäjäkone|
+| attacker | kone jolla voidaan esimerkiksi kuormittaa verkkoa|
+| web1 | verkkopalvelin|
+| db1 | tietokantapalvelin |
+| branch-client | toimipisteen käyttäjäkone|
+| ansible | palvelin jota käytetään verkon ja palvelinten konfigurointiin|
+| prometheus | palvelin jolla monitorodaan verkkoa ja palvelimia|
+| grafana | palvelin jolla voidaan visualisoida monitoroinnista kerättyä dataa|
+| zabbix | verkon ja palvelimien valvontajärjestelmä|
