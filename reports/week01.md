@@ -1,7 +1,8 @@
 # 1. Johdanto
 Ympäristön tarkoitus on toimia harjouitus ympäristönä meille jotka täällä näitä tehtäviä tehään joka jokseenkin vastaa oikeaa yritysverkkoa.
 # 2. Verkkokaavio
-<img width="466" height="808" alt="image" src="https://github.com/user-attachments/assets/d8f74d80-f5bd-40da-924d-10e522e3299f" />
+<img width="364" height="756" alt="image" src="https://github.com/user-attachments/assets/6457dd87-ebaa-4a70-a448-a0a195f7088b" />
+
 
 
 # 3. Laiteluettelo
