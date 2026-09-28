@@ -33,7 +33,7 @@ Ympäristön tarkoitus on toimia harjouitus ympäristönä meille jotka tääll�
 
 
 # 5. Reitityksen analyysi
-```text
+```bash
 root@client1:/# ip addr
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
