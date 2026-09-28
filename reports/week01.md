@@ -1,7 +1,7 @@
 # 1. Johdanto
 Ympäristön tarkoitus on toimia harjouitus ympäristönä meille jotka täällä näitä tehtäviä tehään joka jokseenkin vastaa oikeaa yritysverkkoa.
 # 2. Verkkokaavio
-<img width="364" height="756" alt="image" src="https://github.com/VikiLGit/Verkonhallinta/blob/main/reports/images/kuva1.png" />
+<img width="364" height="756" alt="image" src="./images/kuva1.png" />
 
 
 
