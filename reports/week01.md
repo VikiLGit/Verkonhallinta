@@ -27,7 +27,7 @@ Ympäristön tarkoitus on toimia harjouitus ympäristönä meille jotka tääll�
 | 10.10.10.0/24 | User Network | r1 10.10.10.1 |
 | 10.10.20.0/24 | Server Network | r2 10.10.20.1 |
 | 10.10.30.0/24 | Branch office Network | r3 10.10.30.1 |
-| 10.10.99.0/24 | Management Network | r2y 10.10.99.1 |
+| 10.10.99.0/24 | Management Network | r2 10.10.99.1 |
 | 10.255.12.0/30 | r1-r2 | ? |
 | 10.255.23.0/30 | r2-r3 | ? |
 
