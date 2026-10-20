@@ -122,6 +122,7 @@ web1                       : ok=6    changed=1    unreachable=0    failed=0    s
 ```
 
 # Vertailu
+
 client1
 | Kerättävä tieto | saatu arvo |
 |---------|---------:|
@@ -165,4 +166,4 @@ client 1
 
 # Yhteenveto
 
-Opitut asiat.
+ansiblen avulla voi asentaa palveluita sun muita playbook:in avulla joka voi sisältää kyseisen palvelun kaikki konfiguraatiot. ansible nopeuttaa varmasti palveluiden asennusta etenkin jos ne täytyy asentaa samat jutut monelle palvelimelle. infrastructure as code menettely näin yleisemmin mahdollistaa palveluiden konfiguraatioiden version hallinnan sun muun sillä infra on määritelty koodilla joka voi olla esim githubissa. jos kunfiguroidaan vain yksi palveli ja se tehdään vain kerran eikä palveluita päivitetä ikinä niin ansible tyyppinen ratkaisu ei mielestäni ole käsin tehtyä parempi. 
