@@ -1,6 +1,6 @@
 # 1. Johdanto
 
-Prometheus on monitorointi- ja hälytysjärjestelmä, jonka toiminta perustuu ensisijaisesti metriikan keräämiseen pull modelilla se siis tekee säännöllisessti http-pull pyyntöjä
+Prometheus on monitorointi- ja hälytysjärjestelmä, jonka toiminta perustuu ensisijaisesti metriikan keräämiseen pull modelilla. Tekee siis säännöllisessti http-pull pyyntöjä.
 
 # 2. Node Exporterin käyttöönotto
 
@@ -165,23 +165,23 @@ Ainoa liikahdus verkkoliikenteessä näyttäisi olevan stress-ng:n asennus.
 
 | Ominaisuus | SNMP | Prometheus |
 |------------|------|------------|
-| Tiedonkeruu | kyselypohjainen kai| kyselypohjainen |
+| Tiedonkeruu | Kyselypohjainen | Kyselypohjainen |
 | Käyttöönotto | aika yksinkertainen | yksinkertainen |
-| Mittarien määrä | vähempi | enempi|
-| Visualisointi | vähän kökkö | laajat valikoima kaikkia eri graaffeja |
-| Hälytysmahdollisuudet | laitteet voivat lähettää hälytyksiä | lähes mikä vain on mahdollista |
-| Soveltuvuus pilviympäristöihin | ei taida sopia | rakennettu juuri pilviympäristöjä ajatellen |
+| Mittarien määrä | Vähempi | Enempi|
+| Visualisointi | Vähän kökkö | Laaja valikoima lukuisia eri graaffeja |
+| Hälytysmahdollisuudet | Laitteet voivat lähettää hälytyksiä | Lähes mikä vain on mahdollista |
+| Soveltuvuus pilviympäristöihin | Ei sovi pilviympäristöihin | Rakennettu juuri pilviympäristöjä ajatellen |
 
 # 7. Yhteenveto
 Prometheus käyttää promQL kieltä sen kyselyihin joka mahdollistaa erittäin kompleksitkin kyselyt, prometheus on erittäin skaalautuva.
 
-Ylläpitäjille terkeät mittarit voidaan jakaa kahteen eri kategoriaan infran terveys ja palvelun laatu. Infran puolella on laitteiden käyttöaste ja virheet, palvelun laadun puolella on pyyntömäärät, vateaika, ja virheet.
+Ylläpitäjille tärkeät mittarit voidaan jakaa kahteen eri kategoriaan infran terveys ja palvelun laatu. Infran puolella on laitteiden käyttöaste ja virheet, palvelun laadun puolella on pyyntömäärät, vasteaika, ja virheet.
 
-Dashboardista näkyy cpu, muistin, ja tallennustilan käyttö, sekä netin vastaannottoon ja lähetykseen käytetty kaistaleveys.
+Dashboardista näkyy cpu:n, muisti:n, ja tallennustila:n käyttö, sekä netin vastaannottoon ja lähetykseen käytetty kaistaleveys.
 
-Tämän hetken dashboardista puuttuu tuo palvelun laadun puolen mittarit eli lisäisin ne seuraavaksi.
+Tämän hetken dashboardista puuttuu palvelun laadun puolen mittarit eli lisäisin ne seuraavaksi.
 
-monitorointi tiedot auttaa vianetsinnässä sillä voit nähdä mikä muuttui, miten, ja milloin. 
+Monitorointi tiedot auttaa vianetsinnässä sillä voit nähdä mikä-, miten-, ja milloin muuttui. 
 
 
 
