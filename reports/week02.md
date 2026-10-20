@@ -106,8 +106,8 @@ uskoisin että eth0 on verkko?
 | branch-client | branch-client | Linux |0:19:44.17 |
 
 # 6. Pohdinta
-snmp mahdollistaa datan keräyksen, laitteiden hallinnan, ja etävalvonnan.
-snmp:n avulla voi kerätä lähes mitävain tietoa laitteesta.
-snmpv2c:n suurin ongelma on sen turvattomuus.
-snmpv3:a tulisi käyttää aina kun turvallisuudella on väliä.
+SNMP mahdollistaa datan keräyksen, laitteiden hallinnan, ja etävalvonnan.
+SNMP:n avulla voi kerätä lähes mitävain tietoa laitteesta.
+SNMPv2c:n suurin ongelma on sen turvattomuus.
+SNMPv3:a tulisi käyttää aina kun turvallisuudella on väliä.
 
