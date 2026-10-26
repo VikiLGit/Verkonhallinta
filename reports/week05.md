@@ -29,11 +29,16 @@ Ei HTTP liikennettä.
 # Loki-analyysi
 
 Tutkitut lokit ja löydökset.
-<img width="739" height="213" alt="image" src="https://github.com/user-attachments/assets/8f1864d9-2484-42a2-9599-226f80cfac08" />
+/var/log/bootstrap.log
+Löytyi paljon dpkg:n varoituksia.
+<img width="608" height="545" alt="image" src="https://github.com/user-attachments/assets/7be205f2-eef5-4576-8ff8-69309a789b2d" />
 
+Journalctl ei palauttanut merkintöjä.
 
 
 # Turvallisuusarvio
+Portti skannausten tulokset viittaavat, että Portteja suodatetaan.
+<img width="562" height="277" alt="image" src="https://github.com/user-attachments/assets/d3f5ffe9-8778-4653-8af5-35fe02d64519" />
 
 Parannusehdotukset.
 
