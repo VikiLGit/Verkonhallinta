@@ -95,5 +95,13 @@ apachen sulkemiseen ei reagoida ollenkaan sillä emme monitoroi apachen tilaa
 |Yrityskäyttö|On usein verkkolaitteille.|Standardi modernissa pilvessä kontteineen.|Suosittu perinteisessä IT-infrassa, konesaleissa ja palvelinvalvonnassa.|
 
 # 8. Yhteenveto
+keskitetty valvonta helpottaa laitteiden valvontaa ja mahdollistaa proaktiivisen ylläpidon, jolloin ongelmat voidaan korjata ennen kuin ne tulevat ongelmiksi.
+tärkeimmät mittarit ei missään järjestyksessä ovat latenssi, verkkoliikenne, virheet, resurssien käyttöaste.
+ylläpitäjän tulisi saada hälytys aina silloin kun järjestelmässä tapahtuu jotain joka vaatii jotain pikaista toimenpidettä.
+Prometheuksen paras käyttö kohde on mikropalvelut, kubernetes, dynaamiset pilviympäristöt.
+Zabbix toimii parhaiten fyysisten palvelimien ja verkkolaitteiden kanssa.
+lisäisin ympäristöön poikkeamahälytykset.
+
 
 Kurssilla käytimme kaiken laisia ohjelmistoja SNMP, Prometheus, Zabbix, Wireshark, yms.
+
