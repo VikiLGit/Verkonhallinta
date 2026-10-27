@@ -48,7 +48,9 @@ Verkossa 172.20.20.12 - 998 tcp porttia suljettu. Portti 22 ssh ja Portti 9100 J
 
 Ympäristö toimii hyvin ja vaikuttaa turvalliselta ulkoisia verkkoja kohtaan. 
 Verkossa 172.20.20.12 - on hyvä tarkastaa portin 9100 tarpeellisuus, saavutettavuus ja käyttötarkoitus.
-Journalctl ei palauttanut lokimerkintöjä, koska järjestelmä ei käyttänyt systemd:tä. Lokituksen toimivuus tulisi varmistaa, jotta epäilyttävät yhteydenotot ja virhetilanteet voidaan havaita
+
+/var/log/bootstrap.log-tiedostosta löytyi paljon dpkg:n varoituksia. Niiden syyt tulisi selvittää, jotta mahdolliset ohjelmistojen asennukseen tai järjestelmän toimintaan liittyvät ongelmat voidaan korjata. Lisäksi lokituksen toimivuus tulisi varmistaa.
+
 # Yhteenveto
 Opitut asiat.
 Opimme kaappaamaan ja analysoimaan verkkoliikennettä sekä käyttämään Nmapia porttien tilan selvittämiseen. Opimme myös erottamaan avoimet, suljetut ja suodatetut portit toisistaan.
