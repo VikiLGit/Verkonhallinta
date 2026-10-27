@@ -166,4 +166,4 @@ client 1
 
 # Yhteenveto
 
-Ansiblen avulla voi asentaa palveluita playbook:in avulla, joka voi sisältää kyseisen palvelun kaikki konfiguraatiot. Ansible nopeuttaa varmasti palveluiden asennusta etenkin jos ne täytyy asentaa identtisesti monelle palvelimelle. Infrastructure as code menettely näin yleisemmin mahdollistaa mm. palveluiden konfiguraatioiden version hallinnan, sillä infra on määritelty koodilla joka voi olla esim. githubissa. Jos kunfiguroidaan vain yksi palvelin vain kerran, eikä palveluita ole tarkoitus päivittää, niin ansible tyyppinen ratkaisu ei ole paljoa käsin tehtyä parempi. 
+Ansiblen avulla voi asentaa palveluita playbook:in avulla, joka voi sisältää kyseisen palvelun kaikki konfiguraatiot. Ansible nopeuttaa varmasti palveluiden asennusta etenkin jos ne täytyy asentaa identtisesti monelle palvelimelle. Infrastructure as code menettely näin yleisemmin mahdollistaa mm. palveluiden konfiguraatioiden version hallinnan, sillä infra on määritelty koodilla joka voi olla esim. githubissa. Jos kunfiguroidaan vain yksi palvelin vain kerran ja palveluita ei ole tarkoitus päivittää, niin ansible tyyppinen ratkaisu ei ole paljoa käsin tehtyä parempi. 
