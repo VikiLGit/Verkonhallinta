@@ -16,9 +16,9 @@ Playbook tekee yhteys testin.
 Tuloksista voidaan päätellä, ettei monitorointikoneissa ja reitittimissä ole ssh yhteyttä.
 
 Playbookeissa käytetään seuraavia moduuleja: apt, file, get_url, unarchive, copy, shell, uri, debug, ja service.
-Muuttujia on käytetty esim. node exportterin version valitsemiseen ja lataus url:n täydentämiseen dynaamisesti. Muuttujia on käytetty myös esim. tulostuksessa inventory_hostname, joka palauttaa palvelimen nimen tai jotai emt.
+Muuttujia on käytetty esim. node exportterin version valitsemiseen ja lataus url:n täydentämiseen dynaamisesti. Muuttujia on käytetty myös esim. tulostuksessa inventory_hostname, joka palauttaa palvelimen nimen.
 Handelers-lohkoa käytetään käynnistämään snmpd uudelleen playbookin lopussa, silloin kun snmpd.conf tiedostoon kirjoitetaan. 
-Node Exporter playbook ei kirjoita conf tiedostoon mitään ja se taitaa käynnistyä uudelleen jokatapauksessa aina kun tuo playbook ajetaan.
+Node Exporter playbook ei kirjoita conf tiedostoon mitään ja käynnistyy uudelleen jokatapauksessa aina kun playbook ajetaan.
 
 
 
@@ -166,4 +166,4 @@ client 1
 
 # Yhteenveto
 
-ansiblen avulla voi asentaa palveluita sun muita playbook:in avulla joka voi sisältää kyseisen palvelun kaikki konfiguraatiot. ansible nopeuttaa varmasti palveluiden asennusta etenkin jos ne täytyy asentaa samat jutut monelle palvelimelle. infrastructure as code menettely näin yleisemmin mahdollistaa palveluiden konfiguraatioiden version hallinnan sun muun sillä infra on määritelty koodilla joka voi olla esim githubissa. jos kunfiguroidaan vain yksi palveli ja se tehdään vain kerran eikä palveluita päivitetä ikinä niin ansible tyyppinen ratkaisu ei mielestäni ole käsin tehtyä parempi. 
+Ansiblen avulla voi asentaa palveluita playbook:in avulla, joka voi sisältää kyseisen palvelun kaikki konfiguraatiot. Ansible nopeuttaa varmasti palveluiden asennusta etenkin jos ne täytyy asentaa identtisesti monelle palvelimelle. Infrastructure as code menettely näin yleisemmin mahdollistaa mm. palveluiden konfiguraatioiden version hallinnan, sillä infra on määritelty koodilla joka voi olla esim. githubissa. Jos kunfiguroidaan vain yksi palvelin vain kerran, eikä palveluita ole tarkoitus päivittää, niin ansible tyyppinen ratkaisu ei ole paljoa käsin tehtyä parempi. 
